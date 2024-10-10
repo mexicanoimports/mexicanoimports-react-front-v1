@@ -1,0 +1,30 @@
+.horizontal-banner-section {
+    border-radius: 17px;
+    overflow: hidden;
+    margin: 10px;
+
+    width: calc(100% - 20px);
+    height: 200px;
+}
+
+.horizontal-banner-section-text {
+    padding: 10px;
+    box-sizing: border-box;
+    background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(237, 3, 32, 0.87) 20.8%, rgba(242, 121, 1, 0.84) 74.4%);
+    color: white;
+    align-items: center;
+    font-family: "Anton SC", sans-serif;
+    height: 100px;
+    display: flex;
+}
+
+.horizontal-banner-section-text h1{
+    font-size: 18px;
+}
+
+.horizontal-banner-section-image {
+    background-image: url('./Imagem\ 6.png');
+    background-size: 100%;
+    background-position: center;
+    height: 100px;
+}

@@ -1,0 +1,37 @@
+.profile-card {
+    background-color: #5B1D72;
+    border-radius: 8px;
+    margin: 20px;
+    width: calc(100% - 40px);
+    box-sizing: border-box;
+    padding: 10px;
+
+    display: flex;
+    align-items: center;
+}
+
+.profile-card-picture {
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-card-infos {
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: "Anton SC", sans-serif;
+}
+
+.profile-card-infos h1 {
+    font-size: 15px;
+    color: #F38962;
+}
+
+.profile-card-infos h2 {
+    font-size: 13px;
+    color: white;
+}

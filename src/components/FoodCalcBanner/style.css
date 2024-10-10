@@ -1,0 +1,58 @@
+.foodcalcbanner {
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+    font-family: "Anton AC";
+    margin: 0 auto;
+    margin-top: -50px;
+    margin-bottom: 40px;
+}
+
+.foodcalcbanner img {
+    transform: translateY(70px);
+    position: relative;
+    height: 250px;
+}
+
+.foodcalcbanner-content {
+    padding: 30px 30px;
+    background-color: rgba(58, 30, 9, 0.157);
+    border-radius: 18px;
+    box-shadow: 0px 0px 15px -3px rgba(0, 0, 0, 0.172);
+    margin: 10px;
+}
+.foodcalcbanner-content h1{
+    text-align: left;
+    border-radius: 8px;
+    font-family: "Anton SC", Helvetica, sans-serif;
+    font-size: 18px;
+    color: #AD7657;
+}
+.foodcalcbanner-content-box{
+    margin-top: 10px;
+    text-align: justify;
+    border-radius: 8px;
+    font-family: "Poppins", Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: #AD7657;
+    color: white;
+    padding: 15px 25px;
+}
+.foodcalcbanner-content-box button{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    font-family: "Anton SC", Helvetica, sans-serif;
+    border-radius: 8px;
+    background-color: #F87838 ;
+    color: #F2F2F3;
+    margin-top: 10px;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .foodcalcbanner {
+        grid-column: span 2;
+    }
+}

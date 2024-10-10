@@ -1,0 +1,7 @@
+.error-login p {
+    text-align: left;
+    color: red;
+    font-family: sans-serif;
+    font-size: 11px;
+    margin-bottom: 20px;
+}

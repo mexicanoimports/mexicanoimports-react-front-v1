@@ -1,0 +1,25 @@
+.order-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr 0.2fr;
+    height: 80px;
+    align-items: center;
+    justify-items: left;
+    margin-bottom: 10px;
+}
+.order-item img{
+    width: 50px;
+    margin-right: 10px;
+}
+.order-item-infos h1{
+    font-size: 14px;
+    text-align: left;
+    font-family: "Red Hat Display", sans-serif;
+}
+.order-item-infos{
+    text-align: left;
+}
+.order-item-infos p{
+    color: #F38962;
+    font-family: "Anton SC", sans-serif;
+    font-size: 13px;
+}
