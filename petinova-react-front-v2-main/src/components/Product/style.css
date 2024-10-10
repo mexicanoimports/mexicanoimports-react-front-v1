@@ -1,0 +1,23 @@
+.product {
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.product img {
+    height: 80px;
+}
+
+.product h1 {
+    font-size: 13px;
+    font-family: "Red Hat Display", sans-serif;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.product h2 {
+    font-size: 15px;
+    font-family: "Anton SC", sans-serif;
+    color: #F38962;
+}

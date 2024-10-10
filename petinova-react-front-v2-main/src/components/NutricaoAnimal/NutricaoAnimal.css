@@ -1,0 +1,76 @@
+.nutricaoanimal-container {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 460px;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.6;
+    background-image: radial-gradient(circle farthest-corner at 48.4% 47.5%, rgba(122, 183, 255, 1) 0%, rgba(21, 83, 161, 1) 90%);
+    border-radius: 18px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.nutricaoanimal-title {
+    color: #F07654;
+    font-family: "Anton SC";
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.nutricaoanimal-subtitle {
+    color: #ffffff;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.nutricaoanimal-paragraph {
+    color: #ffffff;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.nutricaoanimal-list {
+    margin: 10px 0;
+    font-size: 12px;
+    color: #ffffff;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+.nutricaoanimal-table {
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: white;
+    margin: 20px 0;
+    border-radius: 18px;
+}
+
+.nutricaoanimal-table th,
+.nutricaoanimal-table td {
+    padding: 8px;
+    text-align: left;   
+    font-size: 10px;
+    
+}
+
+.nutricaoanimal-table th:first-child{
+    border-radius: 18px 0 0 0;
+}
+.nutricaoanimal-table th{
+    background-color: #EAC075;
+    height: 100%;
+    font-weight: 400;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.nutricaoanimal-table th:last-child{
+    border-radius: 0 18px 0 0px;
+}
+
+.nutricaoanimal-table tr {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
